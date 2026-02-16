@@ -1,6 +1,10 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
-import { App } from './app/app';
+//import { ArithmaticOperations } from './Dependency/Arthmaticservice';
+import { Projectclass } from './Dependencys/ProjectComp';
+import { ArrayClass } from './Dependencys/ArrayComp';
+import { Pipeclass } from './Pipes/pipeComp';
+import { sampleclass } from './Pipes/samplecomp';
 
-bootstrapApplication(App, appConfig)
+bootstrapApplication(sampleclass, appConfig)
   .catch((err) => console.error(err));

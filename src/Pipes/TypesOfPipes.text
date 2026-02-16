@@ -1,0 +1,11 @@
+Pipe = Data Transformation
+for display the data different different formates
+# Pipes :-
+1) lowercase
+2) uppercase
+3) Json
+4) Currency
+5) Percentage
+7) Custom Pipes
+            want to create a pipes to Transforming values into squre
+            want to create a pipes to return a raise to the Power 

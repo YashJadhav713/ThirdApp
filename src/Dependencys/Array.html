@@ -1,0 +1,10 @@
+enter number: <input type="text" [(ngModel)]="num" >&nbsp;
+<input type="button" value="Add" (click)="AddIntoArray(num)">&nbsp;
+<input type="button" value="Calculate" (click)="Calculate()">
+<hr>
+<h3>{{result}}</h3>
+<ul>
+    @for (y of data; track y) {
+        <li>{{y}}</li>
+    }
+</ul>
