@@ -1,0 +1,22 @@
+<h2>Welcome</h2>
+<table>
+    <tr>
+        <td>Number 1 </td>
+        <td><input type="text"[(ngModel)]="num1"></td>
+    </tr>
+    <tr>
+        <td>Number 2 </td>
+        <td><input type="text"[(ngModel)]="num2"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="button" value="Add" (click)="Addition(num1,num2)">&nbsp;
+            <input type="button" value="Sub" (click)="Substration(num1,num2)">&nbsp;
+            <input type="button" value="Multi" (click)="Multiplication(num1,num2)">&nbsp;
+            <input type="button" value="Div" (click)="Division(num1,num2)">&nbsp;
+        </td>
+    </tr>
+</table>
+
+<h4>{{result}}</h4>
